@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: rails_7_pwa_react_shakapacker_typescript_production
-  username: rails_7_pwa_react_shakapacker_typescript
-  password: <%= ENV["RAILS_7_PWA_REACT_SHAKAPACKER_TYPESCRIPT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>

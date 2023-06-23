@@ -1,0 +1,26 @@
+{
+  "application.css": "/packs/css/application.css",
+  "application.js": "/packs/js/application.js",
+  "css/application.css.map": "/packs/css/application.css.map",
+  "entrypoints": {
+    "application": {
+      "assets": {
+        "js": [
+          "/packs/js/runtime.js",
+          "/packs/js/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b5b90f.js",
+          "/packs/js/application.js"
+        ],
+        "css": [
+          "/packs/css/application.css"
+        ]
+      }
+    }
+  },
+  "js/application.c186d086db7da2263ea3.hot-update.js.map": "/packs/js/application.c186d086db7da2263ea3.hot-update.js.map",
+  "js/application.js.map": "/packs/js/application.js.map",
+  "js/runtime.c186d086db7da2263ea3.hot-update.js.map": "/packs/js/runtime.c186d086db7da2263ea3.hot-update.js.map",
+  "js/runtime.js.map": "/packs/js/runtime.js.map",
+  "js/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b5b90f.js": "/packs/js/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b5b90f.js",
+  "js/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b5b90f.js.map": "/packs/js/vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b5b90f.js.map",
+  "runtime.js": "/packs/js/runtime.js"
+}
