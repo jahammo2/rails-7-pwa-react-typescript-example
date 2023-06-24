@@ -5,7 +5,6 @@
 ### Phase 1
 
 * Trim down packages
-* Set up a push notification
 
 ### Phase 2
 
