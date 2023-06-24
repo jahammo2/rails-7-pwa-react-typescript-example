@@ -1,6 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+
 import HelloMessage from './App';
+import './companion';
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('root');
