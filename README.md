@@ -4,8 +4,6 @@
 
 ### Phase 1
 
-* Get manifest.json working
-* Try and download as PWA
 * Turn into TS
 * Trim down packages
 
