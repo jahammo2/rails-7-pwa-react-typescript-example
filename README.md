@@ -4,8 +4,8 @@
 
 ### Phase 1
 
-* Turn into TS
 * Trim down packages
+* Set up a push notification
 
 ### Phase 2
 
