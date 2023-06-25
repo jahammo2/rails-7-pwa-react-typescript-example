@@ -1,7 +1,7 @@
 # Note: You must restart bin/webpacker-dev-server for changes to take effect
 
 default: &default
-  source_path: app/javascript
+  source_path: app/javascript/src
 
   # You can have a subdirectory of the source_path, like 'packs' (recommended).
   # Alternatively, you can use '/' to use the whole source_path directory.
