@@ -13,6 +13,7 @@
 
 ## Deploying to Render
 
+1. `rm -rf config/credentials.yml.enc`
 1. `bin/rails credentials:edit`
 1. Copy the config/master.key into the RAILS_MASTER_KEY that they ask for
 
