@@ -4,7 +4,6 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'standard-with-typescript',
     'plugin:react/recommended'
   ],
   overrides: [
@@ -28,6 +27,14 @@ module.exports = {
     'react'
   ],
   rules: {
+    'key-spacing': ['error', {
+      afterColon  : true,
+      align       : 'colon',
+      beforeColon : true,
+      mode        : 'minimum',
+    }],
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
+    'react/prop-types': 'off',
   },
   settings: {
     react: {

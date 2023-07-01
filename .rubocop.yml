@@ -1,0 +1,22 @@
+require:
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "config/environments/production.rb"
+    - "config/puma.rb"
+    - "db/**/*"
+    - "log/**/*"
+    - "node_modules/**/*"
+    - "public/**/*"
+    - "storage/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+  NewCops: enable
+  UseCache: false
+  SuggestExtensions: false
+  TargetRubyVersion: 3.1.2

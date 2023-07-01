@@ -25,6 +25,8 @@ end
 
 group :development do
   gem "bullet"
+  gem "rubocop"
+  gem "standard", ">= 1.0"
   gem "web-console"
 end
 
