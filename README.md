@@ -13,7 +13,8 @@
 
 ## Deploying to Render
 
-* Make sure that you copy the config/master.key into the RAILS_MASTER_KEY that they ask for
+1. `bin/rails credentials:edit`
+1. Copy the config/master.key into the RAILS_MASTER_KEY that they ask for
 
 ## Set up PWA
 
